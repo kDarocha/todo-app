@@ -1,0 +1,19 @@
+.TodoItem {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+
+  &.done {
+    color: #bbb;
+  }
+
+  .items-exit {
+    opacity: 0;
+  }
+
+  svg {
+    margin-left: auto;
+    color: #e85454;
+    cursor: pointer;
+  }
+}

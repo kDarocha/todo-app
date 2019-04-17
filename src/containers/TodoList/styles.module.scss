@@ -1,0 +1,12 @@
+.TodoList {
+  width: 100%;
+  max-width: 640px;
+  margin: 40px auto 0;
+  padding: 20px;
+  background-color: white;
+  overflow: auto;
+
+  form {
+    margin-bottom: 20px;
+  }
+}
